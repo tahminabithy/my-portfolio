@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.1d5a78c5.css",
+    "main.js": "/my-portfolio/static/js/main.7e1aa2e4.js",
+    "static/js/787.530ef7df.chunk.js": "/my-portfolio/static/js/787.530ef7df.chunk.js",
+    "static/media/tahmina.jpg": "/my-portfolio/static/media/tahmina.0a789aab1daa765eccac.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.1d5a78c5.css.map": "/my-portfolio/static/css/main.1d5a78c5.css.map",
+    "main.7e1aa2e4.js.map": "/my-portfolio/static/js/main.7e1aa2e4.js.map",
+    "787.530ef7df.chunk.js.map": "/my-portfolio/static/js/787.530ef7df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d5a78c5.css",
+    "static/js/main.7e1aa2e4.js"
+  ]
+}
