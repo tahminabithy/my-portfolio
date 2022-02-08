@@ -1,0 +1,12 @@
+.icon-bg {
+  background-color: #ad1457;
+}
+.edu-border {
+  background-color: #c94f7c;
+  padding: 15px;
+  border-radius: 30px;
+}
+.edu-border:hover {
+  background-color: #6d0230;
+  transition: background-color 0.5s ease-in-out;
+}
