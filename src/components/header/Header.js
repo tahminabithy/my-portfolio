@@ -126,7 +126,7 @@ const Header = ({ name, ...props }) => {
           </div>
           <div className='col-lg-8 col-md-8 col-12 header-bg2 text-start'>
             <p className='text-white font-style fs-4'>Web Developer</p>
-            <h1 className='mb-4 name'>Tahmina Akter</h1>
+            <h1 className='mb-4 name'>Tahmina Bithy</h1>
             <p className='text-white text-wrap font-style fs-6'>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad
               veritatis necessitatibus dolorum amet ipsa sunt dolorem id
