@@ -46,8 +46,10 @@ export default function Contact() {
             tahmina.akter9519@gmail.com
           </p>
           <p className="font-bold text-lg">
-            <i className="fas fa-phone mr-8 bg-pink-800 p-3 rounded-full text-black "></i>
-            +514-577-4959
+            <i className="fa solid fa-linkedin  mr-8 bg-pink-800 p-3 rounded-full text-black "></i>
+            <a href="www.linkedin.com/in/tahmina-akter-bithy">
+              tahmina-akter-bithy
+            </a>
           </p>
           <p className="font-bold text-lg">
             <i className="fas fa-location-arrow mr-8 bg-pink-800 p-3 rounded-full text-black "></i>

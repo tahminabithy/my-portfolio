@@ -2,13 +2,11 @@ import React, { useState } from "react";
 import { Button, ButtonToolbar, Nav, Offcanvas } from "react-bootstrap";
 import "./Header.css";
 import img from "../image/tahmina.jpg";
-import About from "../about/About";
-import Education from "../education/Education";
+
 //import { HashLink as Link } from 'react-router-hash-link'
 import { Link, animateScroll as scroll } from "react-scroll";
 import { HashLink } from "react-router-hash-link";
-import Project from "../projects/Project";
-import Contact from "../Contact/Contact";
+
 const options = [
   {
     name: "Enable both scrolling & backdrop",
@@ -171,10 +169,6 @@ const Header = ({ name, ...props }) => {
           </div>
         </div>
       </div>
-      <About />
-      <Education />
-      <Project />
-      <Contact />
     </section>
   );
 };

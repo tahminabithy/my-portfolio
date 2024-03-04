@@ -2,11 +2,12 @@
   background-color: #ad1457;
 }
 .edu-border {
-  background-color: #c94f7c;
+  background-color: #c94f7c1f;
   padding: 15px;
   border-radius: 30px;
 }
 .edu-border:hover {
-  background-color: #6d0230;
+  background-color: #99205493;
   transition: background-color 0.5s ease-in-out;
+  box-shadow: #62545a;
 }
