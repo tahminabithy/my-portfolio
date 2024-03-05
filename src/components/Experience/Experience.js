@@ -4,7 +4,7 @@ import "./Experience.css";
 export default function Experience() {
   return (
     <div className="container">
-      <h1 className=" about-heading text-end py-6">Experience</h1>
+      <h1 className=" about-heading  md:text-end py-6">Experience</h1>
       <div className="grid grid cols-1 md:grid-cols-2 py-12 gap-12">
         <img src={img} alt="" />
         <div className="">

@@ -123,17 +123,18 @@ const Header = ({ name, ...props }) => {
             </Offcanvas>
           </div>
         </div>
+        {/* -------------------------------- */}
         <div className="row g-2">
           <div className="col-lg-4 col-md-4 col-12 header-bg1 d-flex justify-content-center align-items-center pro-pic">
             <div>
-              <div>
+              <div className="pt-4 px-1">
                 <img
                   className="img-fluid rounded-circle img-size"
                   src={img}
                   alt=""
                 />
               </div>
-              <div className="mt-5 flex justify-center items-center">
+              <div className="mt-5 flex justify-center items-center pb-4">
                 <img src="https://img.icons8.com/fluency-systems-filled/48/000000/github.png" />
                 <img src="https://img.icons8.com/ios-glyphs/48/000000/linkedin.png" />
                 <img src="https://img.icons8.com/ios-filled/48/000000/facebook-new.png" />
@@ -155,12 +156,12 @@ const Header = ({ name, ...props }) => {
               {" "}
               <button
                 onClick={onButtonClick}
-                className="px-4 py-2 font-bold rounded-3xl text-pink-800 border-2  border-pink-800"
+                className="px-4 py-2 font-bold rounded-3xl text-pink-800 border-2  border-pink-800 hover:bg-pink-800 hover:text-black  transition duration-0 hover:duration-700"
               >
                 Download CV
               </button>
               {/* <button onClick={onButtonClick}>Download PDF</button> */}
-              <button className="mt-2 sm:mt-0 ml-2 md:ml-8 px-4 py-2 font-semibold rounded-3xl  border-2 border-pink-800  bg-pink-800">
+              <button className="mt-2 sm:mt-0 ml-2 md:ml-8 px-4 py-2 font-semibold rounded-3xl  border-2 border-pink-800  bg-pink-800 hover:bg-[#99205493]  transition duration-0 hover:duration-700">
                 <a className="text-decoration-none text-black" href="#contact">
                   Contact
                 </a>
