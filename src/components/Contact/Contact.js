@@ -19,19 +19,19 @@ export default function Contact() {
           <form onSubmit={handleSubmit(onSubmit)}>
             <input
               placeholder="Name"
-              className="w-100 py-3 px-4 border-3 bg-[#212121]  rounded-full border-pink-800"
+              className="w-100 py-3 px-4 border-3 bg-[#212121]  rounded-full border-pink-800 text-white"
               {...register("name", { required: true })}
             />
             <br />
             <input
-              className="mt-10  w-100 py-3 px-4 border-3 bg-[#212121]  rounded-full border-pink-800"
+              className="mt-10  w-100 py-3 px-4 border-3 bg-[#212121]  rounded-full border-pink-800 text-white"
               placeholder="Email"
               {...register("email")}
             />
             <br />
             <textarea
               placeholder="Type your message ...."
-              className="mt-10 h-56  w-100 py-3 px-4  border-3 bg-[#212121]  rounded-3xl border-pink-800"
+              className="mt-10 h-56  w-100 py-3 px-4  border-3 bg-[#212121] text-white  rounded-3xl border-pink-800"
               {...register("message")}
             />
             <input
